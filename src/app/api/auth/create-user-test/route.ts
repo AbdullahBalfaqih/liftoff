@@ -52,20 +52,11 @@ export async function POST(req: NextRequest) {
         console.error('Failed to add initial salary transaction:', transactionError);
       }
     }
-
-    // 2. Create the companion for the new user
-    const { error: companionError } = await supabase
-      .from('companions')
-      .insert([{ user_id: newUser.id }]); // Uses default values from schema for other fields
-
-    if (companionError) {
-      // Log the error but don't fail the request, as the user was still created.
-      console.error('Failed to create companion for new user:', companionError);
-    }
     
     // In a real app, you would log the user in here and return a session token.
     // For this test, we return the user data so the client can store it.
-    return NextResponse.json({ success: true, message: "User and companion created successfully.", data: newUser });
+    // The companion is now created automatically via a database trigger.
+    return NextResponse.json({ success: true, message: "User created successfully. The companion will be created automatically.", data: newUser });
 
   } catch (error: any) {
     console.error('Error in create-user-test route:', error);
