@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 4%; /* Almost Black */
+    --foreground: 210 20% 90%; /* Light Gray */
+
+    --card: 240 6% 10%; /* Dark Grey */
+    --card-foreground: 210 20% 90%;
+
+    --popover: 220 2% 17%; /* Dark Gray */
+    --popover-foreground: 210 20% 90%;
+
+    --primary: 221 83% 53%; /* Vibrant Blue */
+    --primary-foreground: 210 20% 98%; /* Light text on buttons */
+
+    --secondary: 220 15% 30%;
+    --secondary-foreground: 210 20% 95%;
+
+    --muted: 220 15% 20%; /* For tab container background */
+    --muted-foreground: 215 15% 55%; /* For placeholder text and icons */
+
+    --accent: 184 91% 60%; /* Cyan #3EE8F5 */
+    --accent-foreground: 240 5% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 15% 25%; /* Input borders */
+    --input: 220 15% 18%; /* Input background */
+    --ring: 184 91% 60%; /* Ring color to match accent */
+
+    --radius: 0.8rem; /* Make things more rounded like the image */
+
+    --chart-1: 140 70% 35%;
+    --chart-2: 184 91% 60%;
+    --chart-3: 60 90% 55%;
+    --chart-4: 0 100% 60%;
+    --chart-5: 210 40% 96.1%;
+  }
+
+  .dark {
+    --background: 240 10% 4%; /* Almost Black */
+    --foreground: 210 20% 90%;
+    --card: 240 6% 10%;
+    --card-foreground: 210 20% 90%;
+    --popover: 220 2% 17%; /* Dark Gray */
+    --popover-foreground: 210 20% 90%;
+    --primary: 221 83% 53%; /* Vibrant Blue */
+    --primary-foreground: 210 20% 98%;
+    --secondary: 220 15% 30%;
+    --secondary-foreground: 210 20% 95%;
+    --muted: 220 15% 20%;
+    --muted-foreground: 215 15% 55%;
+    --accent: 184 91% 60%; /* Cyan #3EE8F5 */
+    --accent-foreground: 240 5% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 15% 25%;
+    --input: 220 15% 18%;
+    --ring: 184 91% 60%;
+    --chart-1: 140 70% 35%;
+    --chart-2: 184 91% 60%;
+    --chart-3: 60 90% 55%;
+    --chart-4: 0 100% 60%;
+    --chart-5: 210 40% 96.1%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

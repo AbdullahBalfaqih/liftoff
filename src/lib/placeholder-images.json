@@ -1,0 +1,40 @@
+{
+  "placeholderImages": [
+    {
+      "id": "user-avatar",
+      "description": "A generic user avatar for the profile.",
+      "imageUrl": "https://images.unsplash.com/photo-1678286742832-26543bb49959?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx1c2VyJTIwcHJvZmlsZXxlbnwwfHx8fDE3NzAyMzk1MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "user profile"
+    },
+    {
+      "id": "bronze-avatar",
+      "description": "A small, simple robot, representing the initial stage of the cyber companion.",
+      "imageUrl": "https://storage.googleapis.com/gemini-studio-assets/github-project-thumbnails/a268b64b-117a-42c2-9031-64582f34784a.png",
+      "imageHint": "simple robot"
+    },
+    {
+      "id": "silver-avatar",
+      "description": "A slightly more advanced robot with some glowing blue elements.",
+      "imageUrl": "https://storage.googleapis.com/gemini-studio-assets/github-project-thumbnails/f9f30b20-c73e-436e-9270-43f11559c3e9.png",
+      "imageHint": "glowing robot"
+    },
+    {
+      "id": "gold-avatar",
+      "description": "An evolved avatar, larger and more detailed.",
+      "imageUrl": "https://storage.googleapis.com/gemini-studio-assets/github-project-thumbnails/4c8d5d9c-1644-486a-a279-ead23700b0f3.png",
+      "imageHint": "detailed robot"
+    },
+    {
+      "id": "platinum-avatar",
+      "description": "A powerful avatar with armor and sharp features.",
+      "imageUrl": "https://storage.googleapis.com/gemini-studio-assets/github-project-thumbnails/c2415d86-a058-4546-b6d3-2f22f733e8d2.png",
+      "imageHint": "armored robot"
+    },
+    {
+      "id": "diamond-avatar",
+      "description": "The final evolution, a large, formidable cyborg with glowing purple armor.",
+      "imageUrl": "https://storage.googleapis.com/gemini-studio-assets/github-project-thumbnails/42b3c299-1382-45e0-b695-35697af3258c.png",
+      "imageHint": "ultimate cyborg"
+    }
+  ]
+}
